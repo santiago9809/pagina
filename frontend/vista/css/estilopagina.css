@@ -1,0 +1,22 @@
+
+body
+{
+  background-image:url("img/fondo-pantalla.jpg");
+  color: #000;
+  height: 800px;
+}
+header {
+  background-color: beige;
+}
+
+textarea{
+  background-color: greenyellow;
+}
+input
+{
+  background-color:deepskyblue;
+}
+button
+{
+background-color: lightblue;
+}

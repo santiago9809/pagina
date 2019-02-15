@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+
+      <form >
+
+
+      <center>
+        <h1>Plase Complete The From Below</h1>
+      </center>
+        <h2>Personal Information:</h2>
+      First Name
+<input type="text" id="nombre" value="" placeholder="Nombre">
+    <br><br>
+      Last Name
+    <input type="text" id="apellido" value="" placeholder="Lastname">
+    <br> <br>
+Email Address
+      <input type="text" id="email" value="" placeholder="Email address">
+      <br>
+
+<h3>Credit card Information</h3>
+ <label for="exampleInputEmail1">Credit card Type</label>
+<select id="credit" >
+
+<option value="1">visa</option>
+
+<option value="2"> mastercard</option>
+
+
+</select>
+<br><br>
+cardholder
+<input type="text" id="card" value="">
+<br><br>
+CVV2
+<input type="text" id="cvv" value="">
+<br><br>
+<input type="date" id ="dat">
+<br><br>
+<h4>Billing address</h4>
+<br>
+Street address
+<input type="text" id="street">
+<br><br>
+city
+<input type="text" id="city" value="">
+<br><br>
+State
+<select id="state" size="2">
+<br><br>
+<option value="1">None</option>
+<option value="2">yes</option>
+</select>
+<br><br>
+ZIP
+<input type="text" id="zip" value="">
+<br><br>
+country
+
+<select id="pais">
+
+<option value="1">argentina</option>
+
+<option value="2">chile</option>
+
+<option value="3">colombia</option>
+
+</select>
+<br><br>
+phone
+<input type="text" id="phone" value="">
+<br>
+
+Security:   Mo56965
+<br>
+Enter security code
+<input type="text" id="code" value="">
+<br><br>
+<input type="checkbox" name="cuadro" value="1">check here to certify that you are 18 years of age or
+older and agree to the Terms of this purchase.
+<br><br>
+
+ <button class=""type="button" id="listo" onclick="send()">Send</button>
+
+
+
+<br><br>
+  </form>
+  <div id="contenedor">
+  <script src="../control/funsion.js  "></script>
+
+
+</script>
+
+  </div>
+
+  </body>
+
+</html>
